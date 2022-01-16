@@ -11,5 +11,7 @@ pub fn run() {
         "{name} likes {activity}",
         name = "oskar",
         activity = "vaping"
-    )
+    );
+    // placeholder traits
+    println!("{:b} {:o} {:x}", 10, 10, 10);
 }
