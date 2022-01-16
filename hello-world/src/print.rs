@@ -14,4 +14,7 @@ pub fn run() {
     );
     // placeholder traits
     println!("{:b} {:o} {:x}", 10, 10, 10);
+
+    // debug trait
+    println!("{:?}", (12, true, "xdd"));
 }
